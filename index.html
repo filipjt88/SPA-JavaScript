@@ -12,18 +12,20 @@
 <body>
     <!-- Single page application -->
     <div class="jumbotron container-fluid">
-        <div class="row">
-            <div class="col-md-4 offset-4">
-            <h4 class="display-4 text-center mr-5">Account Bank App</h4>
-                <button id="accountsBtn" class="btn btn-primary">Accounts</button>
-                <button id="addAccountBtn" class="btn btn-success">Add account</button>
-                <button id="editDeleteBtn" class="btn btn-danger">Edit / Delete account</button>
+        <div class="row d-flex justify-content-center align-items-center">
+            <h4 class="display-4">Account Bank App</h4>
+            <div class="col-md-10 d-flex justify-content-center">
+                <button id="accountsBtn" class="btn btn-primary m-2">Accounts</button>
+                <button id="addAccountBtn" class="btn btn-success m-2">Add account</button>
+                <button id="editDeleteBtn" class="btn btn-danger m-2">Edit / Delete account</button>
             </div>
         </div>
     </div>
+
+
     <div class="container">
         <div id="accountsView" class="row">
-            <div class="col-md-8 offset-2">
+            <div class="col-md-12">
             <h4 class="display-4 text-center mb-4"><u>Accounts</u></h4>
             <table class="table table-striped">
                 <thead class="bg-dark text-light">
@@ -37,11 +39,11 @@
                 </thead>
                 <tbody id="accountsTable">
                     <!-- <tr>
-                        <td>Filip Jotic</td>
-                        <td>Belgrade</td>
+                        <td>Marko Markovic</td>
+                        <td>Beograd</td>
                         <td>Visa</td>
-                        <td>filip88ks@gmail.com</td>
-                        <td>066-544-44-40</td>
+                        <td>mare8@gmail.com</td>
+                        <td>063-333-41-01</td>
                     </tr> -->
                 </tbody>
             </table>
@@ -63,7 +65,7 @@
         </div>
 
         <div id="editDeleteAccountView" class="row">
-            <div class="col-md-8 offset-2">
+            <div class="col-md-12">
             <h4 class="display-4 text-center mb-4"><u>Edit / Delete account</u></h4>
             <table class="table table-striped">
                 <thead class="bg-dark text-light">
@@ -79,11 +81,11 @@
                 </thead>
                 <tbody id="editAccountsTable">
                     <!-- <tr>
-                        <td>Filip Jotic</td>
-                        <td>Belgrade</td>
+                        <td>Petar Petrovic</td>
+                        <td>Novi Sad</td>
                         <td>Visa</td>
-                        <td>filip88ks@gmail.com</td>
-                        <td>066-544-44-40</td>
+                        <td>pera@gmail.com</td>
+                        <td>062-524-14-20</td>
                     </tr> -->
                 </tbody>
             </table>
