@@ -4,7 +4,7 @@ let accountDb = [
         city: "Krusevac",
         credit_card: "PayPal",
         email: "dexi88ks@gmail.com",
-        phone: "063-333-444-53"
+        phone: "063-333-44-53"
     },
 
     {
