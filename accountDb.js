@@ -9,7 +9,7 @@ let accountDb = [
 
     {
         full_name: "Milica Markovic",
-        city: "Nis",
+        city: "Kragujevac",
         credit_card: "Master",
         email: "mica87@gmail.com",
         phone: "061-2234-345"
