@@ -1,18 +1,18 @@
 let accountDb = [
     {
-        full_name: "Filip Jotic",
+        full_name: "Dejan Zivkovic",
         city: "Krusevac",
         credit_card: "PayPal",
-        email: "filip88ks@gmail.com",
-        phone: "066-544-44-40"
+        email: "dexi88ks@gmail.com",
+        phone: "063-333-444-53"
     },
 
     {
-        full_name: "Ivana Jotic",
-        city: "Krusevac",
+        full_name: "Milica Markovic",
+        city: "Nis",
         credit_card: "Master",
-        email: "ivana@gmail.com",
-        phone: "062-743-367"
+        email: "mica87@gmail.com",
+        phone: "061-2234-345"
     },
 
     {
@@ -20,6 +20,22 @@ let accountDb = [
         city: "Nis",
         credit_card: "Payooner",
         email: "vujica@gmail.com",
-        phone: "061-222-333-444"
+        phone: "062-222-33-34"
+    },
+    
+    {
+        full_name: "Milena Nikodijevic",
+        city: "Novi Sad",
+        credit_card: "Visa",
+        email: "nika@gmail.com",
+        phone: "061-457-33-21"
+    },
+    
+    {
+        full_name: "Danica Ostojic",
+        city: "Beograd",
+        credit_card: "Master",
+        email: "daca93@gmail.com",
+        phone: "065-188-47-04"
     }
 ];
