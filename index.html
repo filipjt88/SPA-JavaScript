@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Single page application -->
+    <div class="jumbotron container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-4">
+            <h4 class="display-4 text-center mr-5">Account Bank App</h4>
+                <button id="accountsBtn" class="btn btn-primary">Accounts</button>
+                <button id="addAccountBtn" class="btn btn-success">Add account</button>
+                <button id="editDeleteBtn" class="btn btn-danger">Edit / Delete account</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="accountsView" class="row">
+            <div class="col-md-8 offset-2">
+            <h4 class="display-4 text-center mb-4"><u>Accounts</u></h4>
+            <table class="table table-striped">
+                <thead class="bg-dark text-light">
+                    <tr>
+                        <th>Full name</th>
+                        <th>City</th>
+                        <th>Credit card</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody id="accountsTable">
+                    <!-- <tr>
+                        <td>Filip Jotic</td>
+                        <td>Belgrade</td>
+                        <td>Visa</td>
+                        <td>filip88ks@gmail.com</td>
+                        <td>066-544-44-40</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+        <div id="addAccountView" class="row">
+            <div class="col-md-8 offset-2">
+            <h4 class="display-4 text-center mb-4"><u>Add account</u></h4>
+            <form>
+                <input  type="text"  name="full_name" class="form-control" placeholder="Please your full name . . . "><br>
+                <input  type="text"  name="city" class="form-control" placeholder="Please your city . . . "><br>
+                <input  type="text"  name="credit_card" class="form-control" placeholder="Please your credit_card . . . "><br>
+                <input  type="email" name="email" class="form-control" placeholder="Please your email . . . "><br>
+                <input  type="text"  name="phone" class="form-control" placeholder="Please your phone . . . "><br>
+                <button id="saveAccountBtn" type="submit" class="btn btn-success form-control">Save account</button>
+            </form>
+            </div>
+        </div>
+
+        <div id="editDeleteAccountView" class="row">
+            <div class="col-md-8 offset-2">
+            <h4 class="display-4 text-center mb-4"><u>Edit / Delete account</u></h4>
+            <table class="table table-striped">
+                <thead class="bg-dark text-light">
+                    <tr>
+                        <th>Full name</th>
+                        <th>City</th>
+                        <th>Credit card</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="editAccountsTable">
+                    <!-- <tr>
+                        <td>Filip Jotic</td>
+                        <td>Belgrade</td>
+                        <td>Visa</td>
+                        <td>filip88ks@gmail.com</td>
+                        <td>066-544-44-40</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+        <div id="editAccountView" class="row">
+            <div class="col-md-8 offset-2">
+            <h4 class="display-4 text-center mb-4"><u>Edit account</u></h4>
+            <form>
+                <input  type="text"  name="full_name_edit" class="form-control" placeholder="Please your full name . . . "><br>
+                <input  type="text"  name="city_edit" class="form-control" placeholder="Please your city . . . "><br>
+                <input  type="text"  name="credit_card_edit" class="form-control" placeholder="Please your credit_card . . . "><br>
+                <input  type="email" name="email_edit" class="form-control" placeholder="Please your email . . . "><br>
+                <input  type="text"  name="phone_edit" class="form-control" placeholder="Please your phone . . . "><br>
+                <button id="editAccountBtn" type="submit" class="btn btn-warning form-control">Edit account</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <!-- End of single page application -->
+<footer>
+    <h4>Account Bank App &copy;2021 </h4>
+</footer>
+<script src="accountDb.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

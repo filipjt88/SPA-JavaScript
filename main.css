@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+#addAccountView {
+    display: none;
+}
+
+#editDeleteAccountView {
+    display: none;
+}
+
+#editAccountView {
+    display: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    position: absolute;
+    bottom: 0;
+}
+
