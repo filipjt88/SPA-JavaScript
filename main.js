@@ -17,11 +17,11 @@ let accountsTable          = document.querySelector("#accountsTable");
 let editAccountsTable      = document.querySelector("#editAccountsTable"); 
 
 // inputs
-let full_name     = document.getElementsByName("full_name")[0];
-let city          = document.getElementsByName("city")[0];
-let credit_card   = document.getElementsByName("credit_card")[0];
-let email         = document.getElementsByName("email")[0];
-let phone         = document.getElementsByName("phone")[0];
+let full_name         = document.getElementsByName("full_name")[0];
+let city              = document.getElementsByName("city")[0];
+let credit_card       = document.getElementsByName("credit_card")[0];
+let email             = document.getElementsByName("email")[0];
+let phone             = document.getElementsByName("phone")[0];
 
 // inputs edit
 let full_name_edit    = document.getElementsByName("full_name_edit")[0];
