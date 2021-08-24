@@ -176,5 +176,6 @@ function editedAccount(e) {
         phone: phone_edit.value
     }
     createTable();
+    createEditTable();
     accountsTableDisplay();
 }
