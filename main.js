@@ -1,5 +1,5 @@
 // Filter search
-let search = document.querySelector("#search");
+let search                = document.querySelector("#search");
 
 // Buttons
 let accountsBtn           = document.querySelector("#accountsBtn");
@@ -86,6 +86,7 @@ function editFormDisplay() {
     addAccountView.style.display        = "none";
     editDeleteAccountView.style.display = "none";
     editAccountView.style.display       = "block";
+    
     index                  = this.getAttribute("data-id");
     full_name_edit.value   = accountDb[index].full_name;
     city_edit.value        = accountDb[index].city;
