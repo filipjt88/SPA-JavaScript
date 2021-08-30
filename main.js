@@ -1,3 +1,4 @@
+// Filter search
 let search = document.querySelector("#search");
 
 // Buttons
