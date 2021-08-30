@@ -2,19 +2,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <accounts>
     <account>
-        <full_name>Filip Jotic</full_name>
+        <full_name>Lazar Zivkovic</full_name>
         <city>Krusevac</city>
         <credit_card>PayPal</credit_card>
-        <email>filip88ks@gmail.com</email>
-        <phone>066-544-44-40</phone>
+        <email>laki88ks@gmail.com</email>
+        <phone>061-111-44-40</phone>
     </account>
 
     <account>
-        <full_name>Ivana Jotic</full_name>
+        <full_name>Ivona Jolic</full_name>
         <city>Krusevac</city>
         <credit_card>Master</credit_card>
-        <email>ivana@gmail.com</email>
-        <phone>062-743-367</phone>
+        <email>ivona@gmail.com</email>
+        <phone>060-743-120-1</phone>
     </account>
 
     <account>
